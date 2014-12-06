@@ -1,0 +1,321 @@
+/*
+
+http://www.washington.edu/brand/
+
+COLORS
+purple - #4b2e83
+
+light gold - #e8e3d3
+normal gold - #b7a57a 
+metallic gold - #85754d
+
+light grey - #d9d9d9
+dark grey - #444444
+
+*/
+
+
+
+/* Small screens */
+@media only screen { 
+	
+	/* GLOBAL */
+	
+	.clear {
+		clear: both;
+	}
+	
+	.off-canvas-wrap {
+		background-color: #333333;
+	}
+	
+	/* HEADER */
+	
+	header{
+		position: fixed;
+		top: 0;
+		-webkit-box-shadow: 0 2px 3px 0 rgba(50, 50, 50, 0.5);
+		-moz-box-shadow:    0 2px 3px 0 rgba(50, 50, 50, 0.5);
+		box-shadow:         0 2px 3px 0 rgba(50, 50, 50, 0.5);
+	}
+	
+	h1{
+		text-align: left;
+		float: left;
+		max-width: 13em;
+	}
+	
+	.tab-bar {
+    	background: none repeat scroll 0 0 #4b2e83;
+    }
+	
+	.tab-bar-section{
+		position: static;
+	}
+	
+	.tab-bar-section a {
+		display: inline-block;
+		max-width: 20px;
+	}
+	
+	.right-off-canvas-menu{
+		overflow: visible;
+	}
+	
+	.top-bar {
+	    background: none repeat scroll 0 0 #fff;
+	    border-bottom: 1px solid #eee;
+	    color: #444;
+	}
+    
+	.top-bar.expanded .title-area {
+	    background: none repeat scroll 0 0 #e8e3d3;
+	}
+	
+	.top-bar .toggle-topbar a, .top-bar.expanded .toggle-topbar a {
+	    color: #b7a57a;
+	}
+	
+	.top-bar-section ul{
+		background-color: #fff;
+	}
+	
+    .top-bar-section ul li {
+	    background: none repeat scroll 0 0 transparent;
+	}
+	
+	.top-bar-section ul li > a{
+		color: #444;
+	}
+	
+	.top-bar-section ul li.active > a {
+	    background: none repeat scroll 0 0 #4b2e83;
+	    color: white;
+	}
+	
+	.top-bar-section ul li > a:hover{
+		background-color: #4b2e83;
+		color: #fff;
+	}
+	
+	.top-bar-section li.active:not(.has-form) a:not(.button) {
+	    background: none repeat scroll 0 0 #b7a57a;
+	    color: white;
+	    line-height: 45px;
+	    padding: 0 15px;
+	}
+	
+	.top-bar-section ul li:hover:not(.has-form) > a, .top-bar-section .dropdown .title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
+	    background: none repeat scroll 0 0 #4b2e83 !important;
+	    color: white;
+	}
+	
+	.top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
+	    color: #444;
+	    display: block;
+	}
+	
+	.breadcrumbs{
+		background: none;
+		border: none;
+	}
+	
+	.breadcrumbs > * {
+	    line-height: 1.6rem;
+	}	
+	
+	/* SLIDER */
+	
+	ul.sliderCalloutsMobile{
+		margin: 0;
+	    padding-top: 1em;
+	    padding: 1em 0 1em 0;
+	}
+	
+	ul.sliderCalloutsMobile li{
+		border-bottom: 1px solid #3b3b3b;
+		display: block;
+		list-style-type: none;
+		overflow: hidden;
+		margin-bottom: 1em;
+	}
+	
+	ul.sliderCalloutsMobile li a {
+	    display: block;
+	    height: 9em;
+	    position: relative;
+	}
+	
+	ul.sliderCalloutsMobile li a:hover{
+		background-color: #b6b6b6;
+	}
+	
+	ul.sliderCalloutsMobile li a img{
+		width: 100%;
+	}
+	
+	ul.sliderCalloutsMobile li a:hover img{
+		display: none;
+	}
+	
+	ul.sliderCalloutsMobile li img{
+		display: block;
+		float: left;
+		clear: both;
+		position: absolute;
+	}
+	
+	ul.sliderCalloutsMobile li a section{
+		float: left;
+		position: absolute;
+		bottom: 0;
+		padding: 1em;
+	}
+	
+	ul.sliderCalloutsMobile li a section p{
+		margin-bottom: 0;
+	}
+	
+	/* BODY */
+	
+	.inner-wrap{
+		background-color: #fff;
+		-webkit-box-shadow: 3px 0 5px 0 rgba(50, 50, 50, 0.5);
+		-moz-box-shadow:    3px 0 5px 0 rgba(50, 50, 50, 0.5);
+		box-shadow:         3px 0 5px 0 rgba(50, 50, 50, 0.5);
+	}
+	
+	
+	/* FOOTER */
+	
+	.footerContainer {
+		background-color: #4b2e83;
+		color: #fff;
+		padding: 3em 0 2em;
+	}
+	
+	.footerLogo {
+	    display: block;
+	    margin: 0 auto 3em auto;
+	    text-align: center;
+	}
+	
+	.twitterContainer li, ul.footerNav li {
+		list-style-type: none;
+	}
+	
+	ul.footerNav, .copyrightContainer p{
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	.footerNav a{
+		color: #fff;
+		font-size: 14px;
+		line-height: 36px;
+	}
+	
+	.copyrightContainer{
+		color: #fff;
+		padding: 1em;
+	}
+	
+	.copyrightContainer p{
+		font-size: 12px;
+	}
+	
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+	
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) {
+
+	/* HEADER */
+	
+	.top-bar-section .dropdown{
+		-webkit-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.5);
+		-moz-box-shadow:    0 2px 5px 0 rgba(50, 50, 50, 0.5);
+		box-shadow:         0 2px 5px 0 rgba(50, 50, 50, 0.5);
+	}
+	
+	.top-bar-section li a{
+		background-color: #fff;
+	}
+	
+	.top-bar-section li:not(.has-form) a:not(.button) {
+	    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) ;
+	    line-height: 45px;
+	    padding: 0 15px;
+	}
+	
+	.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+	    background: none repeat scroll 0 0 #fff;
+	    color: #444;
+	}
+	
+	/* HOME SLIDER */
+	
+	.sliderSection {
+	    background-color: #e3e3e3;
+	    display: block;
+	    padding: 4em 0 4em;
+	    width: 100%;
+	    margin-bottom: 3em;
+	}
+	
+	.sliderContainer {
+		display: block;
+	}	
+	
+	.sliderContainer .homeSliderBtns a {
+		margin-bottom: 0;
+	}
+	
+	.sliderContainer .homeSliderBtns a {
+    	min-height: 6em;
+	}
+	
+	/* BODY */
+	
+	.mainContent, .twitterContainer{
+		margin-bottom: 2em;
+	}
+	
+	/* FOOTER */
+	
+	.footerContainer ul{
+		margin-left: 0;
+	}
+	
+	ul.footerNav{
+		margin-left: 0;
+		text-align: left;
+	}
+
+} /* min-width 641px, medium screens */
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/* Large screens */
+@media only screen and (min-width: 64.063em) { 
+	
+	/* SLIDER */
+	
+	.sliderContainer .homeSliderBtns a {
+    	min-height: 7.9em;
+	}
+	
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+/* XLarge screens */
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
